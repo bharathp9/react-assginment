@@ -5,6 +5,8 @@ cd new-app
 npm start
 
 
+
+
 Bharath Kumar@OmSaiRam MINGW64 ~
 $ cd Desktop/Training/new-app
 
@@ -70,4 +72,41 @@ $ git checkout -b step1
 Switched to a new branch 'step1'
 
 Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git branch
+  master
+* step1
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git diff --name-only
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+src/index.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git add .
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git commit -m"step1: done todoApp frpm reactjs.org"
+[step1 3e7109a] step1: done todoApp frpm reactjs.org
+ 3 files changed, 140 insertions(+), 1 deletion(-)
+ create mode 100644 log to followup.txt
+ create mode 100644 src/step1/App.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
 $
+
+$ git checkout -b step2
+Switched to a new branch 'step2'
+M       log to followup.txt
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$ git branch
+  master
+  step1
+* step2
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$
+
