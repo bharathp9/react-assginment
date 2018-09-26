@@ -110,3 +110,340 @@ $ git branch
 Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
 $
 
+create-react-app new-app
+
+cd new-app
+
+npm start
+
+
+
+
+Bharath Kumar@OmSaiRam MINGW64 ~
+$ cd Desktop/Training/new-app
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app
+$ git init
+Initialized empty Git repository in C:/Users/Bharath/Desktop/Training/new-app/.git/
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/logo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/registerServiceWorker.js.
+The file will have its original line endings in your working directory
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git commint -m"original version"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git commit -m"original version"
+[master (root-commit) 985ca7c] original version
+ 14 files changed, 9864 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/manifest.json
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/registerServiceWorker.js
+ create mode 100644 yarn.lock
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git checkout -b step1
+Switched to a new branch 'step1'
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git branch
+  master
+* step1
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git diff --name-only
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+src/index.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git add .
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git commit -m"step1: done todoApp frpm reactjs.org"
+[step1 3e7109a] step1: done todoApp frpm reactjs.org
+ 3 files changed, 140 insertions(+), 1 deletion(-)
+ create mode 100644 log to followup.txt
+ create mode 100644 src/step1/App.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$
+
+$ git checkout -b step2
+Switched to a new branch 'step2'
+M       log to followup.txt
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$ git branch
+  master
+  step1
+* step2
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$
+
+create-react-app new-app
+
+cd new-app
+
+npm start
+
+
+
+
+Bharath Kumar@OmSaiRam MINGW64 ~
+$ cd Desktop/Training/new-app
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app
+$ git init
+Initialized empty Git repository in C:/Users/Bharath/Desktop/Training/new-app/.git/
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/manifest.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/App.test.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/logo.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/registerServiceWorker.js.
+The file will have its original line endings in your working directory
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git commint -m"original version"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git commit -m"original version"
+[master (root-commit) 985ca7c] original version
+ 14 files changed, 9864 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/manifest.json
+ create mode 100644 src/App.css
+ create mode 100644 src/App.js
+ create mode 100644 src/App.test.js
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/registerServiceWorker.js
+ create mode 100644 yarn.lock
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
+$ git checkout -b step1
+Switched to a new branch 'step1'
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git branch
+  master
+* step1
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git diff --name-only
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+src/index.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git add .
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$ git commit -m"step1: done todoApp frpm reactjs.org"
+[step1 3e7109a] step1: done todoApp frpm reactjs.org
+ 3 files changed, 140 insertions(+), 1 deletion(-)
+ create mode 100644 log to followup.txt
+ create mode 100644 src/step1/App.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
+$
+
+$ git checkout -b step2
+Switched to a new branch 'step2'
+M       log to followup.txt
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$ git branch
+  master
+  step1
+* step2
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$ git diff --name-only
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+log to followup.txt
+src/index.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.js.
+The file will have its original line endings in your working directory
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$ git commit -m"step2: ajax call from other URI in lifecycle in componentDidMount"
+[step2 4d50471] step2: ajax call from other URI in lifecycle in componentDidMount
+ 4 files changed, 203 insertions(+), 2488 deletions(-)
+ rewrite README.md (99%)
+ create mode 100644 src/step2/App.js
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
+$
+
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step3)
+$ git branch
+  master
+  step1
+  step2
+* step3
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step3)
+$
+
+//to install multiple packages
+npm install --save redux react-redux prop-types
+(or)
+yarn add redux react-redux prop-types
+
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step3)
+$ npm install redux react-redux
+npm WARN deprecated browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\jest.cmd as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\jest
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\jest as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\jest
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\esparse.cmd as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\esprima
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\esvalidate.cmd as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\esprima
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\esparse as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\esprima
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\esvalidate as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\esprima
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\browserslist.cmd as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\browserslist
+npm WARN rm not removing C:\Users\Bharath\Desktop\Training\new-app\node_modules\.bin\browserslist as it wasn't installed by C:\Users\Bharath\Desktop\Training\new-app\node_modules\browserslist
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall C:\Users\Bharath\Desktop\Training\new-app\node_modules\uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN ajv-keywords@3.2.0 requires a peer of ajv@^6.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ redux@4.0.0
++ react-redux@5.0.7
+added 189 packages from 164 contributors, removed 104 packages, updated 1076 packages and audited 14553 packages in 336.654s
+found 0 vulnerabilities
+
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step3)
+$
+
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step3)
+$ yarn add redux react-redux prop-types
+yarn add v1.9.4
+warning package-lock.json found. Your project contains lock files generated by tools other than Yarn. It is advised not to mix package managers in order to avoid resolution inconsistencies caused by unsynchronized lock files. To clear this warning, remove package-lock.json.
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+warning Pattern ["prop-types@^15.6.2","prop-types@^15.6.2","prop-types@^15.5.10","prop-types@^15.6.0"] is trying to unpack in the same destination "C:\\Users\\Bharath\\AppData\\Local\\Yarn\\Cache\\v2\\npm-prop-types-15.6.2-05d5ca77b4453e985d60fc7ff8c859094a497102" as pattern ["prop-types@^15.6.2"]. This could result in non-deterministic behavior, skipping.
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 8 new dependencies.
+info Direct dependencies
+├─ prop-types@15.6.2
+├─ react-dom@16.5.2
+├─ react-redux@5.0.7
+├─ react@16.5.2
+└─ redux@4.0.0
+info All dependencies
+├─ hoist-non-react-statics@2.5.5
+├─ lodash-es@4.17.11
+├─ prop-types@15.6.2
+├─ react-dom@16.5.2
+├─ react-redux@5.0.7
+├─ react@16.5.2
+├─ redux@4.0.0
+└─ symbol-observable@1.2.0
+Done in 261.61s.
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step3)
+
+
+Login Page:
+https://serverless-stack.com/chapters/create-a-login-page.html
+
+https://reacttraining.com/react-router/web/example/auth-workflow
+
+
+
+
