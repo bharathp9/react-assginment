@@ -154,3 +154,60 @@ Branch 'master' set up to track remote branch 'master' from 'https://github.com/
 Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step6)
 $
 
+
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step7)
+$ git remote -v
+origin  https://github.com/bharathp9/react-assginment.git (fetch)
+origin  https://github.com/bharathp9/react-assginment.git (push)
+stream  https://github.com/jxjwilliam/react-training-assignment.git (fetch)
+stream  https://github.com/jxjwilliam/react-training-assignment.git (push)
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step7)
+$ git pull stream step7
+remote: Enumerating objects: 28, done.
+remote: Counting objects: 100% (28/28), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 17 (delta 8), reused 17 (delta 8), pack-reused 0
+Unpacking objects: 100% (17/17), done.
+From https://github.com/jxjwilliam/react-training-assignment
+ * branch            step7      -> FETCH_HEAD
+ * [new branch]      step7      -> stream/step7
+error: Your local changes to the following files would be overwritten by merge:
+  26092018 login steps.txt package-lock.json
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step7)
+$ git add .
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step7)
+$ git checkin
+git: 'checkin' is not a git command. See 'git --help'.
+
+The most similar commands are
+        check-ignore
+        checkout
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step7)
+$ git commit -m"commit step7"
+[step7 a4b7d93] commit step7
+ 2 files changed, 2401 insertions(+), 2288 deletions(-)
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step7)
+$ git push origin step7
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 18.69 KiB | 1.44 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'step7' on GitHub by visiting:
+remote:      https://github.com/bharathp9/react-assginment/pull/new/step7
+remote:
+To https://github.com/bharathp9/react-assginment.git
+ * [new branch]      step7 -> step7
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step7)
+$
+
