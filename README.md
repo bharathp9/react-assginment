@@ -1,116 +1,131 @@
+Assigment: On-Leave Management System Application
+==================================================
+
+
 Quick Start
+------------
+
+```bash
+$ cd `this-assignment-folder`
+$ npm install
+$ npm start
+```
+
+Steps (with branch-name)
+========================
+
+master (master branch)
+-----------------------
+
+```bash
+create-react-app `this-assignment-folder`
+cd `this-assignment-folder`
+git init 
+git add .
+git commit -m"original version"
+```
+
+Step 1 (step1 branch)
+----------------------
+
+**Implement `todoApp` from `reactjs.org`**
+
+```bash
+git checkout -b step1
+
+// add and update new codes
+// check in localhost:3000
+
+git diff --name-only
+git add .
+git commit -m"step1: done todoApp from reactjs.org."
+```
+
+
+Step 2
+------
+
+ajax call from other URI in lifecycle componentDidMount
+
+```bash
+
+git checkout -b step2
+
+// componentWillMount -> render -> componentDidMount (REST call, Ajax, Promise) ... componentWillUnMount -> componentDidUnMount
+```
+
+Step 3
+-------
+
+add simplest redux
+
+```bash
+git checkout -b step3
+//create folder src/step3
+//create js src/step3/App.js
+
+npm install --save redux react-redux prop-types
+//or:
+yarn add redux react-redux prop-types
+```
+
+Step 4
+-------
+
+Implement Redux/ TodoMVC example
+
+```bash
+npm install --save classnames 
+
+```
+
+Step 5
+------
+
+Implement Navigation:
+- Layout multiple-pages to navigate
+- Login redirect works
+- add `bootstrap` CSS-style, and `font-awesome`, custom css style.
+
+```bash
+npm install --save react-router-dom react-bootstrap font-awesome
+
+```
+
+Step 6
+------
+
+- add CSS-style, fix warning of button class
+- copy Form, Table into `step6/` folder
+
+```bash
+
+```
+
+Step 7
+------
+
+```bash
+npm install --save react-calendar
+```
+
+Step 8
+------
+
+```bash
+npm install --save react-data-export react-pdf
+
+```
+
+Step 9
+-------
+
+```bash
+
+```
+
+
+Reference
 -----------
-```bash
-create-react-app new-app
 
-cd new-app
-
-npm start
-```
-
-
-```bash
-Bharath Kumar@OmSaiRam MINGW64 ~
-$ cd Desktop/Training/new-app
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app
-$ git init
-Initialized empty Git repository in C:/Users/Bharath/Desktop/Training/new-app/.git/
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
-$ git add .
-warning: LF will be replaced by CRLF in .gitignore.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in README.md.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in package.json.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in public/index.html.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in public/manifest.json.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in src/App.css.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in src/App.js.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in src/App.test.js.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in src/index.css.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in src/index.js.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in src/logo.svg.
-The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in src/registerServiceWorker.js.
-The file will have its original line endings in your working directory
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
-$ git commint -m"original version"
-git: 'commint' is not a git command. See 'git --help'.
-
-The most similar command is
-        commit
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
-$ git commit -m"original version"
-[master (root-commit) 985ca7c] original version
- 14 files changed, 9864 insertions(+)
- create mode 100644 .gitignore
- create mode 100644 README.md
- create mode 100644 package.json
- create mode 100644 public/favicon.ico
- create mode 100644 public/index.html
- create mode 100644 public/manifest.json
- create mode 100644 src/App.css
- create mode 100644 src/App.js
- create mode 100644 src/App.test.js
- create mode 100644 src/index.css
- create mode 100644 src/index.js
- create mode 100644 src/logo.svg
- create mode 100644 src/registerServiceWorker.js
- create mode 100644 yarn.lock
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (master)
-$ git checkout -b step1
-Switched to a new branch 'step1'
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
-$ git branch
-  master
-* step1
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
-$ git diff --name-only
-warning: LF will be replaced by CRLF in src/index.js.
-The file will have its original line endings in your working directory
-src/index.js
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
-$ git add .
-warning: LF will be replaced by CRLF in src/index.js.
-The file will have its original line endings in your working directory
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
-$ git commit -m"step1: done todoApp frpm reactjs.org"
-[step1 3e7109a] step1: done todoApp frpm reactjs.org
- 3 files changed, 140 insertions(+), 1 deletion(-)
- create mode 100644 log to followup.txt
- create mode 100644 src/step1/App.js
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step1)
-$
-
-$ git checkout -b step2
-Switched to a new branch 'step2'
-M       log to followup.txt
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
-$ git branch
-  master
-  step1
-* step2
-
-Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step2)
-$
-
-```
+[How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/)

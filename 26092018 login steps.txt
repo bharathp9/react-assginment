@@ -1,0 +1,53 @@
+
+To check out from github
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step6)
+$ git remote add stream https://github.com/jxjwilliam/react-training-assignment.git
+
+To check which one we are using
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step6)
+$ git remote -v
+stream  https://github.com/jxjwilliam/react-training-assignment.git (fetch)
+stream  https://github.com/jxjwilliam/react-training-assignment.git (push)
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step6)
+$
+
+To merge unrelated files
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step6)
+$ git pull stream step6 --allow-unrelated-histories
+warning: no common commits
+remote: Enumerating objects: 100, done.
+remote: Counting objects: 100% (100/100), done.
+remote: Compressing objects: 100% (61/61), done.
+remote: Total 100 (delta 43), reused 93 (delta 36), pack-reused 0
+Receiving objects: 100% (100/100), 259.71 KiB | 107.00 KiB/s, done.
+Resolving deltas: 100% (43/43), done.
+From https://github.com/jxjwilliam/react-training-assignment
+ * branch            step6      -> FETCH_HEAD
+ * [new branch]      step6      -> stream/step6
+Auto-merging yarn.lock
+CONFLICT (add/add): Merge conflict in yarn.lock
+Auto-merging src/step3/App.js
+CONFLICT (add/add): Merge conflict in src/step3/App.js
+Auto-merging src/step2/App.js
+CONFLICT (add/add): Merge conflict in src/step2/App.js
+Auto-merging src/step1/App.js
+CONFLICT (add/add): Merge conflict in src/step1/App.js
+Auto-merging src/index.js
+CONFLICT (add/add): Merge conflict in src/index.js
+Auto-merging src/App.css
+CONFLICT (add/add): Merge conflict in src/App.css
+Auto-merging public/index.html
+CONFLICT (add/add): Merge conflict in public/index.html
+Auto-merging package.json
+CONFLICT (add/add): Merge conflict in package.json
+Auto-merging package-lock.json
+CONFLICT (add/add): Merge conflict in package-lock.json
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+Bharath Kumar@OmSaiRam MINGW64 ~/Desktop/Training/new-app (step6|MERGING)
+$
+
+

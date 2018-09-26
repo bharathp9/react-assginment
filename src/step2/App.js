@@ -1,46 +1,46 @@
 import React, { Component } from 'react';
 
-{/*# https://www.robinwieruch.de/react-fetching-data/ */}
+//TODO:
+//https://www.robinwieruch.de/react-fetching-data/
 
 const API = 'https://hn.algolia.com/api/v1/search?query=';
 const DEFAULT_QUERY = 'redux';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
+    constructor(props) {
+        super(props);
 
-    this.state = {
-      hits: [],
-    };
-  }
-
-  componentDidMount() {
-    fetch(API + DEFAULT_QUERY)
-      .then(response => response.json())
-      .then(data => this.setState({ hits: data.hits }));
-  }
-
-  render() {
-    const { hits, isLoading, error } = this.state;
-
-    if (error) {
-      return <p>{error.message}</p>;
+        this.state = {
+            hits: [],
+        };
     }
 
-    if (isLoading) {
-      return <p>Loading ...</p>;
+    componentDidMount() {
+        fetch(API + DEFAULT_QUERY)
+            .then(response => response.json())
+            .then(data => this.setState({ hits: data.hits }));
     }
 
-    return (
-      <ul>
-        {hits.map(hit =>
-          <li key={hit.objectID}>
-            <a href={hit.url}>{hit.title}</a>
-          </li>
-        )}
-      </ul>
-    );
-  }
+    componentWillMount() {
+
+    }
+    componentWillUnMount() {
+
+    }
+
+    render() {
+        const { hits } = this.state;
+
+        return (
+            <ul>
+                {hits.map(hit =>
+                    <li key={hit.objectID}>
+                        <a href={hit.url}>{hit.title}</a>
+                    </li>
+                )}
+            </ul>
+        );
+    }
 }
 
 export default App;
